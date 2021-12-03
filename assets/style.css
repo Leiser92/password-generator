@@ -1,0 +1,67 @@
+body {
+    background-color: gray;
+    color:azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: linear-gradient(#e66465, #9198e5);
+    padding: 40px;
+    border-radius: 30px;
+    border: 3px solid blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin:0;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.passwordGeneratorForm{
+    background-color: white;
+    color:black;
+    padding: 20px;
+    border: 2px solid black;
+    height: 75px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    word-break: break-all;
+}
+
+.generate-btn{
+    grid-column: span 2;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    padding: 15px 15px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 20px;
+}
+
+.generate-btn:hover{
+    background-color: tomato;
+}
